@@ -22,7 +22,7 @@
   </button>
 
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
-    <ul class="navbar-nav">
+    <ul class="navbar-nav ml-auto">
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="plots.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Plots
@@ -44,18 +44,57 @@
   </div>
 </nav>
 
-<br/>
+<!-- H1 Section -->
+<!-- <br/>
 <div class="container">
     <div class="row">
       <div class="col-lg-12">
-        <h1> Home </h1>
+        <h1> Welcome to LAT°N </h1>
         <hr/>
-        <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
-        <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
       </div> 
-</div>
+</div> -->
 
-<!-- Main Section -->
+<!-- Hero Section -->
+<section class="bgimage">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      	<h1 class="font-weight-light">Welcome to LAT°N</h1>
+      	<br/>
+        <p class="lead">Your one-stop-shop to analyze how weather changes as you get closer to the equator.</p>
+        <p><a href="#main" class="btn btn-primary btn-large">Learn more »</a></p>
+      </div>
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Explanation -->
+<section class="content-section-white">
+<div class="container">
+	<div class="row">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+			<br/>
+			<h2>Purpose</h2>
+		</div>
+	</div>	
+	<div class="row">
+		<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+			<br>
+			<p>	The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities. After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude.</p>
+		</div>
+		<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+			<br>
+        	<p>Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+		</div>
+	</div>
+</div>
+</section>
+
+
+<!-- Main Section Nav -->
+<section class="content-section-color">
 <div class="container">
   <div class="row">
     <div class="card-columns">
@@ -92,9 +131,20 @@
     </div>
   </div>
 </div>
+</section>
 
-
-<!-- Card deck -->
+<!-- Card deck plots -->
+<br/>
+<br/>
+<section class="content-section-white">
+<div class="container">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<br/>
+				<h2>Fancy some plots?</h2>
+		</div>
+	</div>
+<div class="row">
 <div class="card-deck">
 
   <div class="card">
@@ -141,6 +191,11 @@
     </div>
   </div>
 </div>
+</div>
+</div>
+</section>
+
+
 </body>
 
 <!-- Footer -->
