@@ -40,7 +40,7 @@ h1 {
   width:100%;
   height:500px;
   padding: 50px 50px;
-  background: url('resources/weather_bg.jpg');
+  background: url('weather_bg.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover;
