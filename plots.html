@@ -43,6 +43,7 @@
 </nav>
 
 <br/>
+
 <div class="container">
   <div class="row">
       <div class="col-lg-12">
@@ -54,53 +55,58 @@
 
 
 <!-- Card deck -->
-<div class="row">
-<div class="card-deck">
+<div class="container">
+  <div class="row">
+    <div class="card-deck">
 
-  <div class="card">
-    <a href="max_temp.html">
-    <img src="lat_vs_temp.png" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Lat vs. Max Temp</h5>
-      </a>
-      <p class="card-text">It's pretty clear from this plot that the closer you get to the ecuator the hotter it gets. Interestingly... <br><a href="max_temp.html" class="card-link">Read more</a></p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        <div class="card mb-4">
+            <a href="max_temp.html">
+              <img class="card-img-top img-fluid" src="lat_vs_temp.png" alt="Card image cap">
+            </a>
+            <div class="card-body">
+                <h4 class="card-title">Lat vs. Max Temp</h4>
+                <p class="card-text">It's pretty clear from this plot that the closer you get to the ecuator the hotter it gets. Interestingly... <a href="max_temp.html">read more</a></p>
+                <p class="card-text"><small class="text-muted">Last updated 4 mins ago</small></p>
+            </div>
+        </div>
+
+        <div class="card mb-4">
+          <a href="humidity.html">
+            <img class="card-img-top img-fluid" src="lat_vs_humidity.png" alt="Card image cap">
+          </a>
+            <div class="card-body">
+                <h4 class="card-title">Lat vs. Humidity</h4>
+                <p class="card-text">From this sample, there doesn't seem to be a strong correlation between humidity and... <a href="humidity.html">read more</a></p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+
+        <div class="w-100 d-none d-sm-block d-md-none"><!-- wrap every 2 on sm--></div>
+        <div class="card mb-4">
+          <a href="wind_speed.html">
+            <img class="card-img-top img-fluid" src="lat_vs_wind.png" alt="Card image cap">
+          </a>
+            <div class="card-body">
+                <h4 class="card-title">Lat vs. Wind Speed</h4>
+                <p class="card-text">From this sample—as of today—there doesn't seem to be a correlation between latitude and... <a href="wind_speed.html">read more</a></p>
+                <p class="card-text"><small class="text-muted">Last updated 2 mins ago</small></p>
+            </div>
+        </div>
+
+        <div class="w-100 d-none d-md-block d-lg-none"><!-- wrap every 3 on md--></div>
+        <div class="card mb-4">
+          <a href="cloudiness.html">
+            <img class="card-img-top img-fluid" src="lat_vs_cloudiness.png" alt="Card image cap">
+          </a>
+            <div class="card-body">
+                <h4 class="card-title">Lat vs. Cloudiness</h4>
+                <p class="card-text">From this sample—as of today—we can observse several clusters cloudiness across different... <a href="cloudiness.html">read more</a></p>
+                <p class="card-text"><small class="text-muted">Last updated 1 min ago</small></p>
+            </div>
+        </div>
+        
     </div>
   </div>
-
-  <div class="card">
-    <a href="humidity.html">
-    <img src="lat_vs_humidity.png" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Lat vs. Humidity</h5>
-      </a>
-      <p class="card-text">From this sample, there doesn't seem to be a strong correlation between humidity and... <br><a href="humidity.html" class="card-link">Read more</a></p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-
-  <div class="card">
-    <a href="wind_speed.html">
-    <img src="lat_vs_wind.png" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Lat vs. Wind Speed</h5>
-      </a>
-      <p class="card-text">From this sample—as of today—there doesn't seem to be a correlation between latitude and... <br><a href="wind_speed.html" class="card-link">Read more</a></p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-
-  <div class="card">
-    <a href="cloudiness.html">
-    <img src="lat_vs_cloudiness.png" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Lat vs. Cloudiness</h5>
-      </a>
-      <p class="card-text">From this sample—as of today—we can observse several clusters cloudiness across different... <br><a href="cloudiness.html" class="card-link">Read more</a> </p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-</div>
 </div>
 
 
@@ -109,11 +115,8 @@
 <!-- Footer -->
 <footer class="page-footer font-small blue">
 
-  <!-- Copyright -->
   <div class="footer-copyright text-center py-3">© 2020 Copyright:
     <a href="index.html"> UT Data Bootcamp</a>
   </div>
-  <!-- Copyright -->
 
 </footer>
-<!-- Footer -->

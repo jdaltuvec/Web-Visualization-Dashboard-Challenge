@@ -12,14 +12,20 @@ h1 {
 }
 
 .card-columns {
-	display: inline-block;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
 
 }
 
 .card {
-    padding: 25px 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
     border: #ffffff;
-    height: 390px;
+    height: 420px;
 }
 
 .flex-column { 
@@ -32,8 +38,8 @@ h1 {
 	vertical-align: middle;
 	height: auto;
 	display: block;
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .bgimage {
@@ -78,8 +84,9 @@ h1 {
 
 .content-section-color {
   width:100%;
-  height:450px;
+  height:auto;
   background: #007bff;
+  padding: 50px 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -90,6 +97,7 @@ h1 {
    border:5px solid #efefef;
 }
 
+
 footer {
-	padding-top: 80px;
+	padding-top: 150px;
 }
